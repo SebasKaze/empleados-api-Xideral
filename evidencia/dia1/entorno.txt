@@ -1,0 +1,6 @@
+Linux Mint 22.3
+7.0.0-31-generic
+Docker version 29.8.1, build 4a63305
+Docker Compose version v5.4.0
+openjdk version "21.0.12" 2026-07-21
+git version 2.43.0
