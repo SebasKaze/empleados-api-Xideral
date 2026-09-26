@@ -33,137 +33,139 @@ En la linea 4, la expresion 2 * ear multiplica un int(2) por un long(ear), lo qu
 Los identificadores validos pueden contener letras, numero y $ o _ pero no pueden iniciar con numero, ser palabras reservadas o unicamente _
 
 ## Pregunta 5
-**Respuesta:**  
+**Respuesta:**  A,C
 
 
 **Explicacion.**
 
-Primero la llamda al recolector es una sugerencia, puede o no correr. brownBear pierde la referencia en la linea 13 y polarbear aun tiene una referencia hasta que se pierde con browBear en la 13.
+La precedencia de operadores en Java evalúa desde los tipos con mayor prioridad a los de menor
 
 ## Pregunta 6
-**Respuesta:**  
+**Respuesta:**  F
 
 
 **Explicacion.**
 
-Scope al estar dentro del while unicamente tiene acceso a distance, que es el parametro del metodo, path que se declaro dentro, water y twoHumps
+Sumar un entero con un `float` promueve toda la expresión a float. Un método con retorno declarado como `long` no puede devolver un `float` sin un casteo explícito.
 
 ## Pregunta 7
-**Respuesta:**  
-
-
-**Explicacion.**
-
-Dentro de un bloque de texto el contenido se tomo como un String plano. Lo que imprime # cup = 0 y tambien los espacios
-
-## Pregunta 8
-**Respuesta:**  
-
-
-**Explicacion.**
-
-Var requiere una inicializacion con un tipo que el compilador pueda inferir explicictamente en esa misma linea.
-
-## Pregunta 9
-**Respuesta:**  
-
-
-**Explicacion.**
-
-Las variables de clase e instancia de tipos de referencia se inicializan automaticamente con el valor por defecto null. Las locales no reciben valores por defecto y causan un error de compilacion
-
-## Pregunta 10
-**Respuesta:**  
-
-
-**Explicacion.**
-
-Los guiones bajos _ en literales numericos son validos siempre que no esten al inicio, al final o a lado de un punto decimal
-
-## Pregunta 11
-**Respuesta:**  
-
-
-**Explicacion.**
-
-Se pueden eliminar un total de 4 importaciones, las de java.lang y las de aquarium ya que vienen en el paquete
-
-## Pregunta 12
-**Respuesta:** 
-
-
-**Explicacion.**
-
-A: No se pueden declarar multiples tipos de datos diferentes en una sola linea, C: No se pueden asignar valores por defecto a los parametros de un metodo y D: La variable fins ya esta fuera del alcance.
-
-## Pregunta 13
-**Respuesta:** 
-
-
-**Explicacion.**
-
-Importar una clase unicamente por su nombre tiene prioridad sobre las importaciones con *.
-
-## Pregunta 14
-**Respuesta:**  A,B,D,E
-
-
-**Explicacion.**
-
-Linea 3: El literal 5L es un long y no se puede asignar directamente a un short sin casteo, Linea 4: es un literal double y no cabe en un int y Linea 6 y 7: numPets y numGrains son tipos primitivos
-
-## Pregunta 15
-**Respuesta:**  C,E,F
-
-
-**Explicacion.**
-
-El JVM puede reclamar memoria de otros objetos inaccesibles, tambien el recolector se lleva aquellos objetos sin referencias
-
-## Pregunta 16
-**Respuesta:**  A,D
-
-
-**Explicacion.**
-
-La barra invertida \ al final en un texto cancela el salto de linea y \s fuerza a conservar los espacions en blanco finales.
-
-## Pregunta 17
-**Respuesta:**  D,F,G
-
-
-**Explicacion.**
-
-Los boleanos se inicializan en false, las referencias a null y los flotantes a 0.0
-
-## Pregunta 18
-**Respuesta:**  B,C,F
-
-
-**Explicacion.**
-
-var no se permite en parametros de metodos ni en variables de instancias. Var tambien se determina en tiempo de compilacion por lo cual no puede cambiar en ejecucion
-
-## Pregunta 19
-**Respuesta:**  A,D
-
-
-**Explicacion.**
-
-Long.parseLong() devuelve un primitivo long y Long.valueOf() devuelve el envoltorio long.
-
-## Pregunta 20
-**Respuesta:**  C
-
-
-**Explicacion.**
-
-La linea 4 especifica un tipo de retorno void, convirtiendo a PoliceBox() en un metodo ordinario y no en un constructor. Asi cuando se construye un objeto las variables de instancia se van a valores por defecto
-
-## Pregunta 21
 **Respuesta:**  D
 
 
 **Explicacion.**
 
-Hay un orden de ejecucion que es primero main(), inicializadores de instancias y campos en orden de declaracion, constructor y el print final del main
+Los operadores cortocircuito (`&amp;&amp;`, `||`) omiten evaluar el lado derecho si la parte izquierda ya define el resultado, evitando que se ejecuten sus efectos secundarios.
+
+## Pregunta 8
+**Respuesta:**  A
+
+
+**Explicacion.**
+
+El post-incremento entrega el valor original antes de modificar la variable. Por su parte, la asignación compuesta (`-=`) realiza un casteo automático al tipo de la variable izquierda.
+
+## Pregunta 9
+**Respuesta:**  A,D,E
+
+
+**Explicacion.**
+
+El operador ternario evalúa únicamente la rama seleccionada por la condición lógica, y el **post-incremento** utiliza el valor actual de la variable antes de sumar 1.
+
+## Pregunta 10
+**Respuesta:**  G
+
+
+**Explicacion.**
+
+Toda operación aritmética binaria promueve sus operandos al menos a int, impidiendo asignar el resultado directamente a un short
+
+## Pregunta 11
+**Respuesta:** D  
+
+
+**Explicacion.**
+
+El operador módulo calcula el residuo de una división entera y respeta la precedencia estándar evaluándose de izquierda a derecha.
+
+## Pregunta 12
+**Respuesta:** D
+
+
+**Explicacion.**
+
+El post-incremento devuelve el valor original previo al cambio, mientras que el pre-decremento resta primero y devuelve el valor ya modificado.
+
+## Pregunta 13
+**Respuesta:** F
+
+
+**Explicacion.**
+
+Sigue la prioridad de operadores lógicos: la negación `!` se evalúa primero, seguida de la conjunción `&amp;&amp;` / `&amp;` y finalmente la disyunción.
+
+---
+
+## Pregunta 14
+**Respuesta:**  B,E,G
+
+
+**Explicacion.**
+
+Se pueden comparar referencias de objetos con `!=`, las asignaciones devuelven el valor asignado y el operador ! es exclusivo de tipos booleanos.
+
+## Pregunta 15
+**Respuesta:**  D
+
+
+**Explicacion.**
+
+* El operador ternario (? :) es el único operador en Java que exige exactamente tres operandos (condición, expresión verdadera y expresión falsa).
+
+## Pregunta 16
+**Respuesta:**  B
+
+
+**Explicacion.**
+
+Incluir un literal long(3L) en una operación aritmética promueve todo el resultado a `long`, lo que invalida su asignación directa en una variable `int`
+
+## Pregunta 17
+**Respuesta:**  C,F
+
+
+**Explicacion.**
+
+Los operadores compuestos (`+=`, `*=`) reasignan el valor sobre la misma variable e incorporan la conversión de tipo explícita de forma implícita.
+
+## Pregunta 18
+**Respuesta:**  C
+
+
+**Explicacion.**
+
+Solo los paréntesis () permiten alterar de forma explícita el orden natural de precedencia en las expresiones.
+
+## Pregunta 19
+**Respuesta:**  B,F
+
+
+**Explicacion.**
+
+El pre-incremento modifica la variable antes de usarla, y superar el límite superior de un primitivo provoca un overflow hacia su valor negativo mínimo.
+
+## Pregunta 20
+**Respuesta:**  A,D,E
+
+
+**Explicacion.**
+
+Los operadores unarios poseen la mayor prioridad, el post-decremento devuelve el valor previo a la resta y ! no puede aplicarse a tipos numéricos.
+
+## Pregunta 21
+**Respuesta:**  E
+
+
+**Explicacion.**
+
+El complemento a nivel de bits \~ invierte la representación binaria de un número (equivale a `-x - 1`), y el pre-decremento descuenta 1 antes de la evaluación.
