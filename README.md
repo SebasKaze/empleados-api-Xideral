@@ -3,7 +3,7 @@
 API REST para administrar empleados, construida paso a paso en la Academia Java CDMX
 (Semana 3, del 24 al 26 de septiembre de 2026).
 
-**Alumno:** <tu nombre completo>
+**Alumno:** Hilario Sebastian Espinoza Garcia
 
 ## Tecnologías
 
