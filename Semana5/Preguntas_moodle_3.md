@@ -1,5 +1,5 @@
 # Review Questions
-Estas son las preguntas del Modulo 2 de Moddle.
+Estas son las preguntas del Modulo 3 de Moddle.
 
 
 # Modulo 3 Strings y clases envoltorio
