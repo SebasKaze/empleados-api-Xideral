@@ -1,0 +1,101 @@
+# Review Questions
+Estas son las preguntas del Modulo 2 de Moddle.
+
+
+# Modulo 3 Strings y clases envoltorio
+
+## Pregunta 1 
+**Respuesta:**  b
+
+**Explicacion.**
+
+Append se utiliza para concatenar en los StringBuilder
+
+## Pregunta 2
+**Respuesta:**  a
+
+
+**Explicacion.**
+
+Para reemplazar en los String se usa replace
+
+## Pregunta 3
+**Respuesta:**  a
+
+
+**Explicacion.**
+
+La mejor manera de evaluar un String con otro es equals
+
+## Pregunta 4
+**Respuesta:**  c
+
+
+**Explicacion.**
+
+Al intentar llegar a un caracter fuera del rango del string marca un A StringIndexOutOfBoundsException is thrown at runtime.
+
+## Pregunta 5
+**Respuesta:**  d
+
+
+**Explicacion.**
+
+String al ser un objeto inmutable si no se reasigna su referencia es la misma y  muestra el String original
+
+## Pregunta 6
+**Respuesta:**  a
+
+
+**Explicacion.**
+
+Al ser inmutables y no reasignar el valor se queda igual y no cambia el String
+
+## Pregunta 7
+**Respuesta:**  e
+
+
+**Explicacion.**
+
+Al usar equals se comparan los valores de las cadenas llevando a comparaciones iguales.
+
+## Pregunta 8
+**Respuesta:**  a
+
+
+**Explicacion.**
+
+Al comparar con == se compara la referencia y no el valor por ello no son iguales ya que no son el mismo objeto.
+
+## Pregunta 9
+**Respuesta:**  d
+
+
+**Explicacion.**
+
+Un caso muy similar al de arriba sucede aca
+
+## Pregunta 10
+**Respuesta:**  a
+
+
+**Explicacion.**
+
+\D coincide con cualquier caracter que no sea digito, por ello elimina a todo menos a los numeros
+
+## Pregunta 11
+**Respuesta:**  c
+
+
+**Explicacion.**
+
+Interger se inicializa con un null, cuando se intenta hacer una operacion con el genera un NullPointerException
+
+## Pregunta 12
+**Respuesta:**  c
+
+
+**Explicacion.**
+
+Es el resultado de ciertas operaciones con String, StringBuilder y StringBuffer. Algunos si es posible cambiar su valor otros no.
+
